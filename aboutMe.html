@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Charles Mico Pille – About Me</title>
+<style>
+:root{--bg:#f4f8fe;--card:#fff;--text:#1f2933;--muted:#5f6b7a;--accent:#2196F3;--chip:#E3F2FD;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a24;--card:#1b2633;--text:#e8eef5;--muted:#9fb0c3;--accent:#64B5F6;--chip:#23364a}}
+:root[data-theme="dark"]{--bg:#121a24;--card:#1b2633;--text:#e8eef5;--muted:#9fb0c3;--accent:#64B5F6;--chip:#23364a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:2rem 1.25rem}
+header{text-align:center;padding:1rem 0 2rem}
+.avatar{width:min(200px,55vw);height:auto;aspect-ratio:1;object-fit:cover;border-radius:50%;border:4px solid var(--accent);display:block;margin:0 auto 1.25rem}
+h1{font-size:clamp(2.2rem,8vw,3.4rem);margin:0;color:var(--accent);letter-spacing:-.02em}
+.tag{color:var(--muted);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;margin:.25rem 0 0}
+section{background:var(--card);border-radius:16px;padding:1.5rem;margin-bottom:1.25rem;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+h2{margin:0 0 .75rem;font-size:1.3rem}
+ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.6rem}
+li{background:var(--chip);padding:.45rem .9rem;border-radius:999px;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:.95rem}
+a{color:var(--accent);font-weight:bold}
+footer{text-align:center;color:var(--muted);font-size:.9rem;padding:1rem 0}
+@media (min-width:600px){.wrap{padding:3rem 2rem}section{padding:2rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<img class="avatar" src="me.jpg">
+<h1>Charles Mico Pille</h1>
+<p class="tag">IT student from Batangas, Philippines</p>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p>Hi! I’m Charles Mico Pille, from Batangas. I’m studying and refining my skills in the LAMP stack and Laravel, building web apps one project at a time. Outside of coding, I enjoy doing technical analysis.</p>
+</section>
+
+<section>
+<h2>IT Skills</h2>
+<ul>
+<li>LAMP Stack</li>
+<li>Web Development</li>
+<li>Android Development</li>
+<li>UI/UX Design</li>
+</ul>
+</section>
+
+<section>
+<h2>My Portfolio</h2>
+<p>See my work at <a href="https://charlesmicopille.vercel.app" target="_blank" rel="noopener">charlesmicopille.vercel.app</a>.</p>
+</section>
+
+
+</div>
+</body>
+</html>
